@@ -1,0 +1,30 @@
+{
+    "name": "jasechen/lara-jsonponse",
+    "description": "This Laravel package to response JSON message using in RESTful API.",
+    "type": "library",
+    "keywords": ["laravel", "json", "response", "restful", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jase Chen",
+            "email": "jase.chen@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/jasechen/lara-jsonponse",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jasechen\\Jsonponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Jasechen\\Jsonponse\\JsonponseServiceProvider"
+            ]
+        }
+    }
+}
